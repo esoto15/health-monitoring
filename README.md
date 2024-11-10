@@ -19,3 +19,6 @@ Unlike traditional models, which may offer limited interpretability, our approac
 By uncovering these key stress drivers, this research aims to provide valuable insights for educational institutions to develop targeted interventions and foster a more supportive learning environment for students.
 
 ## Feature Selection
+We applied ANOVA (Analysis of Variance) and the Chi-Square Test to identify the most significant features associated with the target variable, stress_level. Both tests assess the relationship between each feature and the target, with higher scores indicating stronger associations.
+
+The results from both tests highlighted sleep quality and blood pressure as the most significant features. These two variables showed the highest scores, suggesting they are strongly correlated with stress levels in the dataset.
