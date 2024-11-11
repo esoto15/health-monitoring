@@ -35,3 +35,7 @@ The Random Forest Regressor showed similar results to the Decision Tree Regresso
 In conclusion, both the Decision Tree Regressor and Random Forest Regressor outperformed Linear Regression in terms of predictive accuracy, with Random Forest slightly edging out Decision Tree in general robustness. Given the similar performance between Decision Tree and Random Forest, either could be used, with Random Forest offering the added benefit of being less prone to overfitting.
 
 ## SHAP (SHapley Additive exPlanations)
+This section delves into SHAP (SHapley Additive exPlanations) analysis, uncovering how individual features impact our models' predictions. SHAP values serve as a unified measure of feature importance.
+![image](https://github.com/user-attachments/assets/a93e7d78-3957-4474-a7a0-bd2c5caa185e)
+
+This SHAP summary plot shows the impact of sleep_quality and blood_pressure on the model's predictions. Each point represents a data instance, with the x-axis indicating SHAP values (feature impact on the prediction) and color showing feature values (blue for high, pink for low). For sleep_quality, high values generally push the prediction higher, while low values decrease it. The effect of blood_pressure is more varied, with both high and low values affecting the prediction in mixed directions. Overall, sleep_quality has a more consistent influence, while blood_pressure shows a more distributed impact across different SHAP values.
